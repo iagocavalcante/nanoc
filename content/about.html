@@ -1,0 +1,18 @@
+--- 
+title: "About me and my cats" 
+author: "John Doe"
+pica: "asdfasd"
+---
+
+<h1>My cute little "About" page</h1>
+
+<p>This is the about page for my new Nanoc site.</p>
+
+<% if @item[:title] %>
+    <%= @item[:title] %>.</p>
+  <% end %>
+
+  <% if @item[:author] %>
+  <p>Escrito porn
+    <%= @item[:author] %>.</p>
+  <% end %>
